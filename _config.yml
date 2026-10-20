@@ -5,13 +5,13 @@ logo: "/images/profile_pic.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br /> elements if you don't need line breaks)
   CSCI 496: Senior Portfolio<br />
   In partial fulfillment of the requirements for the degree of
-  Bachelor of Science in Computer-Science (class of 2027)
+  Bachelor of Science in Computer-Science (class of 2026)
   <br /><br />
-  <a href="https://koimcf2005.github.io/csci-portfolio/pdf/resume.pdf">View My Resume</a>
+  <a href="https://koi-mcfarland.github.io/csci-portfolio/pdf/resume.pdf">View My Resume</a>
   <br /><br />
   <a href="https://www.linkedin.com/in/koi-mcfarland/">View My LinkedIn Profile</a>
 repository: "csci-csu/csci-portfolio"
-github_username:  koimcf2005 # update with your username
+github_username:  koi-mcfarland # update with your username
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
 # Build setting

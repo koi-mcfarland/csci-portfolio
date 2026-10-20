@@ -1,5 +1,18 @@
+---
+layout: default
+---
+
 Portfolio
 =========
+
+Senior Project
+--------------
+
+### [Conversational AI Interface for Analyst-Driven Threat Investigation | CSCI 497–499](senior-project)
+
+*Final report, test results, and defense slides for my senior capstone (ACE Cyber Program, mentored by Prof. Julie Henderson & Prof. William Littleton).*
+
+---
 
 Programming Projects
 --------------------

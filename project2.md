@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 [Back to Portfolio](./)
 
 Wordle Group Project
