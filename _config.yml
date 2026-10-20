@@ -1,7 +1,7 @@
 # Site settings
 # These are used to personalize your new site.
 title: Koi Elijah McFarland # your name here
-logo: "/images/profile_pic.png?raw=true" # your photo (or logo) here
+logo: "/images/profile_pic.png?v=2" # your photo (or logo) here
 description: > # your text below (remove <br /> elements if you don't need line breaks)
   CSCI 496: Senior Portfolio<br />
   In partial fulfillment of the requirements for the degree of
