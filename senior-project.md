@@ -10,8 +10,8 @@ Conversational AI Interface for Analyst-Driven Threat Investigation
 **Final Senior Project Report — December 11, 2025**
 
 -   **Student:** Koi McFarland
--   **Major:** Computer Science
--   **Degree:** Bachelor of Science in Computer Science (class of 2027)
+-   **Major:** Computer Science and Engineering
+-   **Degree:** Bachelor of Science in Computer Science and Engineering, Minor in Mathematics (Class of 2026)
 -   **Project Advisor:** Professor Julie Henderson
 -   **DoD/ACE Mentor:** Professor William Littleton
 -   **Course:** CSCI 497–498–499 Senior Project (Capstone Series)
@@ -21,7 +21,7 @@ Conversational AI Interface for Analyst-Driven Threat Investigation
 
 ---
 
-## 1. Statement of Purpose (Problem Statement)
+## 1. Statement of Purpose
 
 Modern Security Operations Centers (SOCs) monitor, investigate, and respond to increasingly
 complex cyber threats across large-scale enterprise environments that generate vast volumes of
@@ -77,7 +77,7 @@ synthetic datasets and objective precision/recall/F1 measurement — rather than
 usability claims. A full literature map is maintained in the project repository
 (`docs/markdown/Preliminary-Literature-Map.md`).
 
-## 3. Project Language(s), Software, and Hardware
+## 3. Project Language, Software, and Hardware
 
 **Language:** Python 3.11 (CAI application, log generator, and evaluation scripts).
 
@@ -146,7 +146,7 @@ continuous log flow.
   <img src="images/cai-home.png" alt="The CAI home screen" style="max-width:100%; border:1px solid #d0d0d0; box-shadow:0 1px 4px rgba(0,0,0,0.2); cursor:zoom-in;">
 </a>
 <br>
-Fig 1. The CAI home screen (Streamlit) where an analyst enters a natural-language query. *(Click the image to open it full-size in a new tab.)*
+Fig 1. The CAI home screen (Streamlit) where an analyst enters a natural-language query.
 
 The CAI (`services/conversational-ai-interface/`) operates as a natural-language-to-query
 translation layer built in Streamlit. The analyst submits a free-form investigative question
@@ -159,7 +159,7 @@ using only known ECS fields, read-only constructs, and explicit time ranges.
   <img src="images/cai-generated-query.png" alt="The CAI displaying the generated Elasticsearch JSON DSL" style="max-width:100%; border:1px solid #d0d0d0; box-shadow:0 1px 4px rgba(0,0,0,0.2); cursor:zoom-in;">
 </a>
 <br>
-Fig 2. The CAI displaying the generated Elasticsearch JSON DSL for an analyst query. *(Click the image to open it full-size in a new tab.)*
+Fig 2. The CAI displaying the generated Elasticsearch JSON DSL for an analyst query.
 
 Before execution, every model output passes a validation layer (`components/json_tools.py`) that
 rejects malformed JSON, unknown fields, and unsafe constructs such as unrestricted index scans;
@@ -174,7 +174,7 @@ remains fully responsible for interpreting results (Fig 3).
   <img src="images/cai-results.png" alt="Query results returned to the analyst" style="max-width:100%; border:1px solid #d0d0d0; box-shadow:0 1px 4px rgba(0,0,0,0.2); cursor:zoom-in;">
 </a>
 <br>
-Fig 3. Query results returned to the analyst, with the raw events presented for review. *(Click the image to open it full-size in a new tab.)*
+Fig 3. Query results returned to the analyst, with the raw events presented for review.
 
 A companion evaluation script (`evaluate-results.py`) compares the UUIDs returned by each
 CAI-generated query against the PI-Key, computing true positives, false positives, false
